@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корниенко Виталий Петрович | Финансовый ИИ-Аналитик & Аудитор</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-color: #38bdf8;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #334155;
+        }
+        h1 { margin: 10px 0 5px 0; font-size: 2.5rem; color: #fff; }
+        .subtitle { font-size: 1.2rem; color: var(--accent-color); font-weight: 500; }
+        .contacts { margin-top: 15px; color: var(--text-muted); }
+        .contacts a { color: var(--text-color); text-decoration: none; margin: 0 10px; border-bottom: 1px dashed var(--accent-color); }
+        
+        .section { margin: 40px 0; }
+        h2 { font-size: 1.5rem; border-left: 4px solid var(--accent-color); padding-left: 10px; margin-bottom: 20px; }
+        
+        .project-card {
+            background-color: var(--card-bg);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #0f172a;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background 0.2s;
+        }
+        .btn:hover { background-color: #7dd3fc; }
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill-tag { background: #334155; padding: 6px 14px; border-radius: 20px; font-size: 0.9rem; }
+        .skill-tag.tech { background: #0369a1; color: #fff; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Корниенко Виталий Петрович</h1>
+        <div class="subtitle">Финансовый Эксперт | Разработчик и Валидатор ИИ-систем</div>
+        <div class="contacts">
+            📍 г. Москва | 📱 +7 (903) 965-47-23 | ✉️ <a href="mailto:Vitaliy_Ko@rambler.ru">Vitaliy_Ko@rambler.ru</a>
+        </div>
+    </header>
+
+    <div class="section">
+        <h2>О себе</h2>
+        <p>Более 15 лет опыта в сфере внутреннего аудита, финансового контроля и анализа ФХД крупнейших российских компаний. Обладаю фундаментальным экономическим образованием (МБА Финансы) и действующим аттестатом аудитора.</p>
+        <p>Специализируюсь на стыке финансов и современных технологий. Проектирую локальные мультиагентные системы ИИ-валидации (LLM-as-a-Judge), обучаю нейросети работе со сложными экономическими сценариями, провожу жесткий фактчекинг и разметку финансовых датасетов.</p>
+    </div>
+
+    <div class="section">
+        <h2>Флагманский ИИ-Проект</h2>
+        <div class="project-card">
+            <h3>Локальный контур финансового ИИ-аудита (LLM-as-a-Judge)</h3>
+            <p>Разработал и развернул автономную систему проверки качества экономических суждений на базе Python и каскада локальных моделей <strong>Qwen 3.5 (9B)</strong> и тяжелой <strong>Qwen 3.8 (27B) Reflect</strong>.</p>
+            <p>Система автоматически выявляет методологические дефекты финансового анализа, "галлюцинации" и инверсии логики в учетных документах бизнеса, экономя время живых аудиторов.</p>
+            <a href="https://github.com" target="_blank" class="btn">👀 Смотреть код на GitHub</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Ключевые компетенции</h2>
+        <div class="skills-grid">
+            <span class="skill-tag tech">Python & ИИ-агенты</span>
+            <span class="skill-tag tech">Prompt Engineering (Ollama, LM Studio)</span>
+            <span class="skill-tag tech">Валидация & Фактчекинг LLM</span>
+            <span class="skill-tag">Внутренний аудит & Налоговый контроль</span>
+            <span class="skill-tag">Анализ ФХД & Управленческая отчетность</span>
+            <span class="skill-tag">1С:Предприятие 8</span>
+            <span class="skill-tag">IBM SPSS & Статистический анализ</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
